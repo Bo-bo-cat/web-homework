@@ -1,0 +1,58 @@
+/* header */
+header {
+    background: rgb(36, 116, 36);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: darkkhaki;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* main */
+
+main {
+    padding: 20px;
+}
+
+#about {
+    background: #f9f9f9;
+    padding: 10px;
+}
+
+#hobbies ul {
+    list-style-type: square;
+}
+
+/* footer */
+
+footer>a {
+    background: lightgray;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(36, 116, 36);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 24px;
+    color: darkred;
+}
+
+p {
+    font-size: 16px;
+}

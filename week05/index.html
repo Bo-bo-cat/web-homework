@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    body {
+      background-image: url("https://png.pngtree.com/background/20250119/original/pngtree-blurred-nature-background-featuring-park-and-blur-picture-image_15876101.jpg");
+      background-repeat: no-repeat;
+  	  background-size: cover;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        color:rgb(255, 255, 255);
+
+    }
+    .container {
+      background-color: #258e5f68;
+      padding: 30px;
+      border-radius: 18px;
+      width: 350px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center
+        gap: 15px;
+    }
+
+    .row {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    fieldset {
+        width: 50%;
+        border: none;
+        justify-content: center;
+        gap: 10px;
+    }
+
+   .block {
+        background: #0000002e;
+        padding: 10p;
+        border-radius: 10px;
+        text-align:left;
+        margin-bottom: 10px;
+   }
+
+   input[type="text"],
+   input[type="email"],
+   input[type="number"],
+   input[type="password"]{
+        width: 100px;
+        border-radius: 10px;
+        padding: 8px 12px;
+        margin-top: 6px;
+        boz-sizing:border-box;
+   }
+
+   input[type="submit"] {
+       width: 100%;
+       padding: 10px;
+       border-radius: 30px;
+       border: none;
+       background: #1d6f49;
+       color: rgb(255, 255, 255);
+       font-size: 16px;
+       cursor: pointer;
+   }
+
+   </style>
+</head>
+<body>
+    <div class="container">
+        <section id="form">
+        <h2>Зворотній зв'язок</h2>
+        <form action="#" method="post">
+
+            <div class="row">
+                 <fieldset>  
+                <div class="block">
+                    <label>Ім’я:<br>
+                        <input type="text" name="name" required>
+                    </label><br><br>
+                </div>
+                
+                <div class="block">
+                    <label>Email:<br>
+                        <input type="email" name="email" required>
+                    </label><br><br>
+                </div>
+                
+                <div class="block">
+                    <label>Вік:<br>
+                        <input type="number" name="age">
+                    </label><br><br>
+                </div>
+                
+                <div class="block">
+                    <input type="radio" name="sex" value="W">Жінка
+                    <br>
+                    <input type="radio" name="sex" value="M">Чоловік
+                </div>
+                </fieldset>
+
+                <fieldset>
+                <div class="block">
+                    <label>Пароль<br>
+                        <input type="password" name="password" required>
+                    </label><br><br>
+                </div>
+                
+
+                <div class="block">
+                    <label>Підтвердити пароль<br>
+                        <input type="password" name="password" required>
+                    </label><br><br>
+                </div>
+                
+                <div class="block">
+                        <input type="checkbox" name="checkbox"><br>
+                    <label>Приймаю умови</label><br><br>
+                </div>
+                
+                </fieldset>
+            </div>
+           
+
+            <input type="submit" value="Зареєструватися">
+        </form>
+        </section>
+    </div>
+	<footer>Bozhena</footer>
+</body>
+</html>
