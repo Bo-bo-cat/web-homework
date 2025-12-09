@@ -1,17 +1,21 @@
-let income = 10000;
-let rent = 4000;
-let food = 2000;
-let transport = 400;
-let entertainment = 1500;
+let income = Number(prompt("Введіть дохід:"));
+let rent = Number(prompt("Введіть витрати на оренду:"));
+let food = Number(prompt("ВВедіть витрати на їжу:"));
+let transport = Number(prompt("ВВедіть витрати на транспорт:"));
+let entertainment = Number(prompt("Введіть витрати на розваги:"));
 
 let totalExpenses = rent + food + transport + entertainment;
 let savings = income - totalExpenses;
 
+// console.log(('Ваші витрати'),totalExpenses);
+// console.log(('Залишок'), savings);
+
 if (savings > 0) {
-    console.log("У вас залишилися гроші");
+     message = "У вас залишилися гроші";
 } else if (savings == 0) {
-    console.log("Ви витратили все");
+    message = "Ви витратили все";
 } else {
-    console.log("Ви в мінусі!");
+    message = "Ви в мінусі!";
 }
 
+alert("Ваші витрати:" +  totalExpenses +"\nЗалишок:" + savings + "\n"+ message);
