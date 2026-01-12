@@ -11,7 +11,7 @@ let savings = income - totalExpenses;
 // console.log(('Залишок'), savings);
 
 if (savings > 0) {
-     message = "У вас залишилися гроші";
+    message = "У вас залишилися гроші";
 } else if (savings == 0) {
     message = "Ви витратили все";
 } else {
