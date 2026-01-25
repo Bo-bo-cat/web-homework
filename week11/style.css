@@ -1,0 +1,45 @@
+
+
+/* .dark #text {
+  color: white !important;
+} */
+
+/* ---------------1 */
+
+
+/* .red {
+  color: red;
+}
+
+.dark {
+  background: black;
+  color: white;
+}
+
+.dark .red {
+  color: red;
+} */
+
+/* ---------------2 */
+
+/* світла тема за замовчуванням */
+body {
+  background: white;
+  color: black;
+}
+
+/* темна тема */
+body.dark {
+  background: black;
+  color: white;
+}
+
+/* червоний заголовок (важливо: #text.red сильніше за #text) */
+#text.red {
+  color: red;
+}
+
+/* щоб у темній темі червоний лишався червоним */
+body.dark #text.red {
+  color: red;
+}
