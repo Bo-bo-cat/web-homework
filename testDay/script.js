@@ -31,7 +31,7 @@ const totalInValue = document.getElementById("totalInValue");
 const totalOutValue = document.getElementById("totalOutValue");
 const filterAllBtn = document.getElementById("filterAll");
 const filterInBtn = document.getElementById("filterIn");
-const filterOutBtn = document.getElementById("bfilterOut);
+const filterOutBtn = document.getElementById("filterOut");
 
 
 // 3) ДОПОМІЖНІ ФУНКЦІЇ
