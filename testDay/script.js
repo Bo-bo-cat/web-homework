@@ -62,7 +62,7 @@ function readAmount(inputEl) {
 
 // TODO 3 — makeId(): повернути унікальний id (наприклад String(Date.now())).
 function makeId() {
-    return String(Data.now());
+    return String(Date.now());
 }
 
 
