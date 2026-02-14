@@ -220,7 +220,7 @@ function render() {
     if (transactionsList) {
         transactionsList.innerHTML = "";
         visible.forEach(t => {
-                  const li = createTransactionElement(t);
+            const li = createTransactionItem(t);
         transactionsList.appendChild(li);
      });
     }
